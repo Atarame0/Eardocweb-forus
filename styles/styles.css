@@ -299,6 +299,7 @@ p{
         width: 18rem;
     }
 
+
 }
 
 
@@ -314,6 +315,8 @@ p{
         align-items: center; /* Center align items horizontally */
         justify-content: center; /* Center align items vertically */
         padding: 1rem;
+        gap: 1px;
+        
     }
 
     .flex-container-opening li {
