@@ -889,7 +889,7 @@ height: 63%;
 .popup-content {
     background-color: rgba(239, 251, 255, 0.8);
     padding: 16px;
-    border-radius: 30px;
+    border-radius: 18px;
     text-align: center;
     max-width: 759px;
     width: 94%;
@@ -934,7 +934,10 @@ height: 63%;
 
     .popup-content {
         padding: 10px;
-        max-width: 90%; /* Ensure popup content fits small screens */
+        max-width: 90%;
+        height: 46%;
+
+        
     }
 
     .close-btn {
