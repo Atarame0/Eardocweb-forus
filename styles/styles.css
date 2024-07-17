@@ -906,6 +906,12 @@ height: 63%;
 }
 
 
+.flag {
+ width: 76px;
+    height: 75%;
+    margin: 9px 0;
+}
+
 
 
 
@@ -954,12 +960,6 @@ width: 29px;
     }
 }
 
-
-.flag {
- width: 76px;
-    height: 75%;
-    margin: 9px 0;
-}
 
 
 .flex-container-popup {
