@@ -21,6 +21,9 @@ font-family: 'Assistant-Light';
 }
 
 
+strong {
+    font-family: 'Assistant-bold';
+}
 
 
 /* תפריט ניווט עליון*/
@@ -648,6 +651,7 @@ transform: translate(5%, 0) scale(1.4);
 .accordion-body {
     font-size: 1rem;
     text-align: right;
+     font-family: 'Assistant-Light';
 }
 .accordion-header {
     font-size: 1.5rem; 
