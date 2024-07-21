@@ -294,6 +294,10 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(flighters);
     });
 
+    const swim = document.querySelectorAll('.flex-container-opening-swim li');
+    swim.forEach(swim=> {
+        observer.observe(swim);
+    });
     
 
 });
