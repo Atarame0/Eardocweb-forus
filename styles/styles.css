@@ -47,7 +47,20 @@
     animation: smileyBouncer 3s linear infinite;
 }
 
-
+#main-nav {
+    position: fixed;
+    top: -13px;
+    left: 0;
+    width: 101%;
+    background-color: #ffffffe0;
+    color: white;
+    padding: 0px;
+    transition: top 0.3s;
+    z-index: 1000;
+}
+#main-nav.hidden {
+    top: -91px;
+}
 
 
 /* עיצוב של דף הבית */
