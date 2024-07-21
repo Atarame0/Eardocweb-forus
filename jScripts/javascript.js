@@ -1,5 +1,27 @@
 
+let lastScrollTop = 0;
 
+window.onscroll = function() {
+    let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScrollTop > lastScrollTop) {
+        // Scrolling down
+        document.getElementById('main-nav').classList.add('hidden');
+    } else {
+        // Scrolling up
+        document.getElementById('main-nav').classList.remove('hidden');
+    }
+    lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop; // For mobile or negative scrolling
+};
+
+function toggleNavBar() {
+    const sidenav = document.getElementById("mobile-nav");
+    if (sidenav.style.width === "250px") {
+        sidenav.style.width = "0";
+    } else {
+        sidenav.style.width = "250px";
+    }
+}
  
     document.addEventListener("DOMContentLoaded", function() {
         var acc = document.getElementsByClassName("accordion");
