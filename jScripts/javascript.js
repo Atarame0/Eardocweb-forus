@@ -224,4 +224,14 @@ function showPopup(country) {
             observer.observe(item);
         });
 
+
+        const cat = document.querySelectorAll('.list');
+        cat.forEach(cat => {
+            observer.observe(cat);
+        });
+
+
+
+     
+
     });
