@@ -813,7 +813,7 @@ height: 63%;
   @media (max-width: 600px) {
 
 .flip-card-inner{
-    box-shadow: 0 -3px 3px rgba(131, 151, 160, 0.5);
+    box-shadow: 0 2px 3px rgba(131, 151, 160, 0.5);
 }
 
       
