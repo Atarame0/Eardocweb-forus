@@ -866,7 +866,9 @@ height: 63%;
 
 /* המלצות מהעולם */
 .hotspot {
-    transition: transform 0.3s ease; /* Smooth transition for the scale effect */
+    transition: transform 0.3s ease;
+      transform: translateY(-2px); 
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
 .hotspot:hover {
