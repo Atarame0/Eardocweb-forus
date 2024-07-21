@@ -227,6 +227,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
+   const card = document.querySelectorAll('.flip-card-container');
+    card.forEach(card => {
+        observer.observe(card);
+    });
+
+
+ 
      const doc = document.querySelectorAll('.flex-container-opening-doc li');
     doc.forEach(doc => {
         observer.observe(doc);
