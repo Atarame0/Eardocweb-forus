@@ -248,6 +248,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
+        const map = document.querySelectorAll('.map-container');
+    map.forEach(map=> {
+        observer.observe(map);
+    });
+
+
     const lists = document.querySelectorAll('.list');
     lists.forEach(list => {
         observer.observe(list);
