@@ -411,6 +411,8 @@ padding-top: 0%;
     width: 28%;
     scroll-snap-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+          transform: translateY(-2px); /* Initial state */
+transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
   
   .item:hover {
