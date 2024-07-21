@@ -326,7 +326,7 @@ p{
 
 /* סירטון פתיחה בעמוד בית*/
 .flex-container-opening {
-    padding-top: 6%;
+    padding-top: 10%;
     padding-bottom: 5%;
     display: flex;
     list-style-type: none;
@@ -2430,7 +2430,7 @@ color: #751DD5;
 
 .flex-container-opening-kids li {
     width: 24rem;
-    height: 17rem;
+    height: 16rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
