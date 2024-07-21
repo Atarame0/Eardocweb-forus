@@ -227,5 +227,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
+     const doc = document.querySelectorAll('.flex-container-opening-doc li');
+    doc.forEach(doc => {
+        observer.observe(doc);
+    });
+
+
 });
 
