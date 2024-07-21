@@ -245,6 +245,12 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(docmed);
     });
 
+     
+    const research = document.querySelectorAll('.flex-container-opening-doc-research li');
+    research.forEach(research => {
+        observer.observe(research);
+    });
+
 
 });
 
