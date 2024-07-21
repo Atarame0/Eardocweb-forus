@@ -207,3 +207,21 @@ function showPopup(country) {
 //     mapContainer.style.transform = 'scale(' + scale + ')';
 // }
   
+    document.addEventListener("DOMContentLoaded", () => {
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('image-animation');
+                    observer.unobserve(entry.target); // Stop observing once the animation is triggered
+                }
+            });
+        });
+
+
+
+        const items = document.querySelectorAll('.flex-container-opening li');
+        items.forEach(item => {
+            observer.observe(item);
+        });
+
+    });
