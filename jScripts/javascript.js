@@ -197,41 +197,39 @@ function showPopup(country) {
             }
         });
     });
-// window.addEventListener('resize', adjustMapSize);
 
-// function adjustMapSize() {
-//     var mapContainer = document.querySelector('.map-container');
-//     var mapWidth = 2000; // Width of the map image
-//     var containerWidth = mapContainer.offsetWidth;
-//     var scale = containerWidth / mapWidth;
-//     mapContainer.style.transform = 'scale(' + scale + ')';
-// }
-  
-    document.addEventListener("DOMContentLoaded", () => {
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('image-animation');
-                    observer.unobserve(entry.target); // Stop observing once the animation is triggered
-                }
-            });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('image-animation');
+                observer.unobserve(entry.target);
+            }
         });
-
-
-
-        const items = document.querySelectorAll('.flex-container-opening li');
-        items.forEach(item => {
-            observer.observe(item);
-        });
-
-
-        const cat = document.querySelectorAll('.list');
-        cat.forEach(cat => {
-            observer.observe(cat);
-        });
-
-
-
-     
-
+    }, {
+        root: document.querySelector('.scroll-container'), 
+        rootMargin: '0px',
+        threshold: 0.1 
     });
+
+
+    const items = document.querySelectorAll('.flex-container-opening li');
+    items.forEach(item => {
+        observer.observe(item);
+    });
+
+
+    const lists = document.querySelectorAll('.list');
+    lists.forEach(list => {
+        observer.observe(list);
+    });
+
+
+    const spots = document.querySelectorAll('.hotspot');
+    spots.forEach(spot => {
+        observer.observe(spot);
+    });
+});
+
