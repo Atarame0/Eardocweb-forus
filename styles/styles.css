@@ -812,6 +812,11 @@ height: 63%;
   
   @media (max-width: 600px) {
 
+.flip-card-inner{
+    box-shadow: 0 -3px 3px rgba(131, 151, 160, 0.5);
+}
+
+      
     .flip-card-container .flip-card {
         background-color: transparent;
         width: 173px;
