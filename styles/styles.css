@@ -449,16 +449,22 @@ transition: opacity 0.8s ease-out, transform 0.8s ease-out;
     bottom: 4%;
     width: 3rem;
     height: 3rem;
+    transition: color 0.3s ease, transform 0.3s ease; /* Apply transition here */
+    cursor: pointer; /* Ensure the cursor indicates it’s clickable */
+}
 
-  }
-  
-  .button--previous {
-   right: 87%;
-  }
-  
-  .button--next {
+.button--previous {
+    right: 87%;
+}
+
+.button--next {
     right: 1.5rem;
-  }
+}
+
+.button:hover {
+    color: rgb(55, 199, 233); /* Darker blue on hover */
+    transform: scale(1.5) translateY(-10px); /* Slightly larger on hover */
+}
 
 
 /* המסך פחות מ-600 */
