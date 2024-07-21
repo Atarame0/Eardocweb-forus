@@ -214,7 +214,12 @@ document.addEventListener("DOMContentLoaded", () => {
         threshold: 0.1 
     });
 
+   const footer= document.querySelectorAll('.footer li');
+    footer.forEach(footer=> {
+        observer.observe(footer);
+    });
 
+ 
     const items = document.querySelectorAll('.flex-container-opening li');
     items.forEach(item => {
         observer.observe(item);
