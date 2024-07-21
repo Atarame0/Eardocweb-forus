@@ -288,7 +288,13 @@ document.addEventListener("DOMContentLoaded", () => {
     section.forEach(section=> {
         observer.observe(section);
     });
- 
+
+    const flighters = document.querySelectorAll('.flex-container-opening-flighters li');
+    flighters.forEach(flighters=> {
+        observer.observe(flighters);
+    });
+
+    
 
 });
 
