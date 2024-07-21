@@ -232,6 +232,12 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(doc);
     });
 
+    
+    const docmed = document.querySelectorAll('.flex-container-main-doc li');
+    docmed.forEach(docmed => {
+        observer.observe(docmed);
+    });
+
 
 });
 
