@@ -1404,7 +1404,7 @@ width: 29px;
 
 
 .flex-container-opening-doc li {
-    width: 24rem;
+    width: 25rem;
     height: 14rem;
     border-radius: 10px;
     display: flex;
@@ -3051,7 +3051,7 @@ padding-top: 7%;
 .chosenCat-image-sw {
     height: auto;
     padding-right: 34%;
-    padding-top: 0%;
+    padding-top: 3%;
     max-width: 55%;
 }
 
