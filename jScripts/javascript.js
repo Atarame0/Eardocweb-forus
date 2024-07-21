@@ -227,9 +227,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    const spots = document.querySelectorAll('.hotspot');
-    spots.forEach(spot => {
-        observer.observe(spot);
-    });
 });
 
