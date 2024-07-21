@@ -872,15 +872,16 @@ height: 63%;
 
 /* המלצות מהעולם */
 .hotspot {
-    transition: transform 0.3s ease;
-      transform: translateY(-2px); 
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+    transform: translateY(0); /* Initial state */
 }
 
 .hotspot:hover {
-        cursor: pointer;
-
-    transform: scale(2.1); /* Enlarge the image by 10% */
+    cursor: pointer;
+    transform: scale(1.2) translateY(-10px); /* Scale and move up on hover */
 }
 
 .map-container {
