@@ -1069,6 +1069,10 @@ width: 29px;
         display: inline-block;
         vertical-align: middle;
         width: 26%;
+        display: inline-block;
+    vertical-align: middle;
+    width: 64%;
+    padding-top: 5%;
     }
 
     .web-icon {
