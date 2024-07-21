@@ -298,6 +298,12 @@ document.addEventListener("DOMContentLoaded", () => {
     swim.forEach(swim=> {
         observer.observe(swim);
     });
+
+
+        const adults = document.querySelectorAll('.flex-container-opening-adults li');
+    adults.forEach(adults=> {
+        observer.observe(adults);
+    });
     
 
 });
