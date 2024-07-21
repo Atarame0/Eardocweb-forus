@@ -2273,6 +2273,7 @@ display: none;
     background-size: 110%;
     background-position-x: 96%;
     background-repeat: no-repeat;
+    gap: 3px;
 }
 
 .flex-container-opening-doc-research p {
