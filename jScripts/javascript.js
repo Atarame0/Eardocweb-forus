@@ -252,5 +252,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
+    const kid = document.querySelectorAll('.flex-container-opening-kids li');
+    kid.forEach(kid => {
+        observer.observe(kid);
+    });
+
+     const section = document.querySelectorAll('.kids-forparents-section li');
+    section.forEach(section=> {
+        observer.observe(section);
+    });
+ 
+
 });
 
