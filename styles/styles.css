@@ -2981,7 +2981,12 @@ width: 85%;
 
     }
 
-    
+        .fly-info-p{
+       background-color: #fff4ea;
+    border-radius: 4%;
+    padding: 10%;
+    margin-right: -6%;
+    }
 
 .flighters-opening-section ul{
     display: flex;
