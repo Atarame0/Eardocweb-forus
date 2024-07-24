@@ -2792,13 +2792,13 @@ left: -41%;
 
     
     .kids-forparents-section{
-        background-image: url(../images/kids-bg.png);
-        background-size: 101%;
-        /* background-position-x: -623%; */
-        background-position-y: 55%;
-        background-repeat: no-repeat;
-        /* padding-top: 44%; */
-        padding-bottom: 29%;
+       background-image: url(../images/kids-bg.png);
+    background-size: 133%;
+    background-position-x: 19%;
+    background-position-y: 55%;
+    background-repeat: no-repeat;
+    /* padding-top: 44%; */
+    padding-bottom: 29%;
     }
 
 
