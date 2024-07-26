@@ -310,6 +310,14 @@ document.addEventListener("DOMContentLoaded", () => {
     adults.forEach(adults=> {
         observer.observe(adults);
     });
+
+
+       const adultsinf = document.querySelectorAll('.container-info-kids');
+    adultsinf.forEach(adultsinf=> {
+        observer.observe(adultsinf);
+    });
+
+ 
     
 
 });
