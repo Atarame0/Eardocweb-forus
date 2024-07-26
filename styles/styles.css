@@ -2890,11 +2890,7 @@ flex: 1 1 30%;
     margin-bottom: 10px;
 }
 
-.content {
-   
-    font-size: 1rem;
-    padding: 3%;
-}
+
 
 @media (max-width: 600px) {
     .flex-container-info-parents {
