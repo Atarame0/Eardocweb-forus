@@ -2466,14 +2466,7 @@ color: #751DD5;
     
     
     .kids-opening-section ul {
-        display: flex;
-        flex-wrap: wrap;
-        padding: -6px;
-        list-style: none;
-        width: 89%;
-        gap: 0%;
-        flex-direction: row;
-        flex-wrap: nowrap;
+   gap: 5%;
     }
 
 .kids-forparents-section-icon{
@@ -2497,11 +2490,7 @@ color: #751DD5;
     width: 94%;
 }
 
-.kids-opening-section li {
-flex: 1 1 30%;
-    margin: -10px;
-    margin-right: -18%;
-}
+
 .kids-forparents-section li{
     flex: 1 1 30%;
     margin: -10px;
