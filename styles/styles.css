@@ -2885,6 +2885,7 @@ flex: 1 1 30%;
 }
 
 .title {
+    font-family: 'Assistant-Light';
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
