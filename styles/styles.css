@@ -734,8 +734,7 @@ transform: translate(5%, 0) scale(1.4);
 width: 283px;
     height: 397px;
     perspective: 100;
-    border-radius: 40px;
-    box-shadow: 0 7px 3px rgba(131, 151, 160, 0.5);
+
   }
   
   .flip-card-inner {
