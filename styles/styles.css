@@ -1512,11 +1512,11 @@ padding-top: 3%;
 
 .doc-med {
     background-color: white;
-    box-shadow: 0 7px 3px rgba(131, 151, 160, 0.5);
     display: inline-block;
     width: 50%;
-    margin-right: 10px; /* Adjust margin between items */
-    border-radius: 18px;
+    margin-right: 10px;
+    border-radius: 24px;
+    box-shadow: 0 10px 8px rgba(131, 151, 160, 0.3);
 }
 
 
