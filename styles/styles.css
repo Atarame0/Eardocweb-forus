@@ -2836,6 +2836,86 @@ flex: 1 1 30%;
 
 
 
+.flex-container-info-parents{
+  
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f6ebff;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 18px;
+}
+
+
+.parent-info-buttons{
+    width: 19%;
+    padding: 6%;
+}
+
+
+
+.container-info-kids {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.square {
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 7px 3px rgba(131, 151, 160, 0.5);
+    display: inline-block;
+    border-radius: 18px;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: block;
+    font-size: 1rem;
+    padding: 3%;
+}
+
+@media (max-width: 600px) {
+    .flex-container-info-parents {
+        justify-content: center;
+    }
+    .square {
+        width: 100%;
+        background-color: #f6ebff;
+    }
+
+    .title {
+      cursor: pointer;
+        padding: 18px;
+        border: none;
+        text-align: center;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    .content {
+        font-size: 0.75rem;
+        display: none;
+    }
+
+    .parent-info-buttons, .parent-info-buttons-research {
+    display: none;
+    }
+
+    .parent-info-buttons-research {
+        display: none;
+
+    }
+}
+
 
 /* לטסים מתמידים    */
 
