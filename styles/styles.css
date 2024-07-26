@@ -2488,7 +2488,7 @@ color: #751DD5;
 .kids-forparents-section li{
     flex: 1 1 30%;
     margin: -10px;
-    margin-right: -24%;
+    margin-right: -14%;
 }
 
 .kids-opening-section h2 , .kids-forparents-section h2{
@@ -2655,7 +2655,7 @@ background-color: #f6ebff;
     background-image: url(../images/kids-bg.png);
     background-size: 95%;
     background-position-x: -59%;
-    background-position-y: 81%;
+    background-position-y: 54%;
     background-repeat: no-repeat;
     padding-top: 9%;
 }
@@ -2665,7 +2665,9 @@ background-color: #f6ebff;
     flex-wrap: wrap;
     padding: -6px;
     list-style: none;
-    width: 87%;
+    width: 92%;
+    position: relative;
+    right: -7%;
 }
 
 .main-text-kids{
