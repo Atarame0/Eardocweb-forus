@@ -2890,7 +2890,11 @@ flex: 1 1 30%;
     margin-bottom: 10px;
 }
 
-
+.content-parentinfo {
+    display: block;
+    font-size: 1rem;
+    padding: 3%;
+}
 
 @media (max-width: 600px) {
     .flex-container-info-parents {
@@ -2913,7 +2917,7 @@ font-size: 1.25rem;
     font-family: 'Assistant-Light';
     }
 
-    .content {
+.content-parentinfo {
         font-size: 0.75rem;
         display: none;
         background: white;
