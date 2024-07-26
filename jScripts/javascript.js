@@ -314,3 +314,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+
+
+ //מידע ילדים הורים
+
+
+ document.addEventListener("DOMContentLoaded", function() {
+    var titles = document.querySelectorAll('.title');
+    titles.forEach(function(title) {
+        title.addEventListener('click', function() {
+            var content = this.parentElement.nextElementSibling;
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        });
+    });
+});
+
+
