@@ -2908,6 +2908,7 @@ font-size: 1.25rem;
     .content {
         font-size: 0.75rem;
         display: none;
+        background: white;
     }
 
     .parent-info-buttons, .parent-info-buttons-research {
