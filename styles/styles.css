@@ -327,6 +327,7 @@ p{
 
 /* סירטון פתיחה בעמוד בית*/
 .flex-container-opening {
+    justify-content: center;
     padding-top: 10%;
     padding-bottom: 5%;
     display: flex;
@@ -2952,6 +2953,7 @@ padding-bottom: 3%;
 
 
 .flex-container-opening-flighters {
+    justify-content: center;
 padding-top: 6%;
     padding-bottom: 0%;
     display: flex;
@@ -3116,7 +3118,7 @@ width: 85%;
 
 /*  שחיינים */
 .flex-container-opening-swim{
-
+justify-content: center;
 padding-top: 7%;
   padding-bottom: 0%;
   display: flex;
@@ -3283,6 +3285,7 @@ padding-top: 7%;
 
 
 .flex-container-opening-adults{
+    justify-content: center;
 padding-top: 6%;
     padding-bottom: 0%;
     display: flex;
