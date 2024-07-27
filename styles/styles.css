@@ -2431,6 +2431,7 @@ color: #751DD5;
 
 
 .flex-container-opening-kids {
+    justify-content: center;
     padding-top: 6%;
     padding-bottom: 0%;
     display: flex;
