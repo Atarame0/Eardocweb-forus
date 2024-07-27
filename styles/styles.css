@@ -3279,10 +3279,11 @@ height: auto;
 /*  מבוגרים */
 
 .chosenCat-image-ad{
-    height: auto;
-    padding-right: 32%;
-    max-width: 52%;
-    padding-top: 5%;
+ height: auto;
+    position: relative;
+    top: -6%;
+    padding-right: 14%;
+    width: 77%;
 }
 
 
