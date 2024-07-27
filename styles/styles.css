@@ -1326,9 +1326,10 @@ width: 29px;
 
 .chosenCat-image{
    height: auto;
-    padding-right: 26%;
-    max-width: 52%;
-    padding-top: 4%;
+    position: relative;
+    top: -6%;
+    padding-right: 18%;
+    width: 64%;
 }
 
 
