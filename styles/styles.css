@@ -3146,10 +3146,12 @@ padding-top: 7%;
 
 
 .chosenCat-image-sw {
-    height: auto;
-    padding-right: 34%;
-    padding-top: 3%;
-    max-width: 55%;
+height: auto;
+    position: relative;
+    top: -11%;
+    padding-right: 14%;
+    padding-top: 0%;
+    max-width: 75%;
 }
 
 
