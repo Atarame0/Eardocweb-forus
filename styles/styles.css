@@ -1388,6 +1388,7 @@ width: 29px;
 
 
 .flex-container-opening-doc {
+    justify-content: center;
     padding-top: 6%;
     padding-bottom: 0%;
     display: flex;
