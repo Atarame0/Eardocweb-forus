@@ -322,8 +322,14 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(travelinf);
     });
 
- 
 
+        const swinf = document.querySelectorAll('. container-info-sw');
+    swinf.forEach(swinf=> {
+        observer.observe(swinf);
+    });
+
+
+    
 
 });
 
