@@ -3433,11 +3433,13 @@ height: auto;
     }
     .square-sw {
         width: 100%;
-        background-color: #ffffff;
+       background-color: #bfeff5;
+       
     }
 
 
     .content-swinfo {
+         background-color: #ffffff;
         text-align:right;
         font-size: 0.75rem;
         display: none;
