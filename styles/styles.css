@@ -3384,6 +3384,94 @@ height: auto;
 
 
 
+.flex-container-info-sw{
+  
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #bfeff5;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 18px;
+}
+
+
+.sw-info-buttons{
+    width: 19%;
+    padding: 6%;
+}
+
+.sw-info-buttons-suitcase{
+    width: 29%;
+    padding: 1%;
+}
+
+
+.container-info-sw{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.square-sw {
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 7px 3px rgba(131, 151, 160, 0.5);
+    display: inline-block;
+    border-radius: 18px;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.content-swinfo {
+    display: block;
+    font-size: 1rem;
+    padding: 3%;
+}
+
+@media (max-width: 600px) {
+    .flex-container-info-sw {
+        justify-content: center;
+    }
+    .square-sw {
+        width: 100%;
+        background-color: #bfeff5;
+    }
+
+    .title {
+      cursor: pointer;
+        padding: 18px;
+        border: none;
+        text-align: center;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    .content-swinfo {
+        font-size: 0.75rem;
+        display: none;
+        transition: max-height 0.5s ease, opacity 0.5s ease; 
+    }
+
+    .sw-info-buttons, .sw-info-buttons-research {
+    display: none;
+    }
+
+    .sw-info-buttons-research {
+        display: none;
+
+    }
+    .sw-info-buttons-suitcase{
+        display: none;
+    }
+}
+
 /*  מבוגרים */
 
 .chosenCat-image-ad{
