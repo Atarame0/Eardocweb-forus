@@ -2735,7 +2735,9 @@ background-color: #f6ebff;
 
 
 
-    
+    .flex-container-opening-kids li{
+    height: 5rem;
+}
 
 
     
@@ -2752,9 +2754,7 @@ background-color: #f6ebff;
     padding: 1%;
    
 }
-.flex-container-opening-kids li{
-    height: 5rem;
-}
+
 
 
 
@@ -3058,7 +3058,7 @@ width: 85%;
         text-align:center;
     }
     .flex-container-opening-flighters li{
-        height: 8rem;
+        height: 5rem;
     }
 
     .flex-container-opening-flighters{
