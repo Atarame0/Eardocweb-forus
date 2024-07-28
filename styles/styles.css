@@ -2795,9 +2795,9 @@ left: -41%;
 
     
     .kids-forparents-section{
-       background-image: url(../images/kids-bg.png);
-    background-size: 133%;
-    background-position-x: 19%;
+ background-image: url(../images/kids-bg.png);
+    background-size: 123%;
+    background-position-x: 21%;
     background-position-y: 55%;
     background-repeat: no-repeat;
     /* padding-top: 44%; */
@@ -2809,13 +2809,13 @@ left: -41%;
    
 flex: 1 1 30%;
    margin: -45px;
-    margin-right: -26%;
+    margin-right: -29%;
     }
 
     
     .kids-forparents-section ul{
-     width: 93%;
-    margin-right: -27%;
+     width: 96%;
+    margin-right: -15%;
     margin-top: 8%;
 }
 
