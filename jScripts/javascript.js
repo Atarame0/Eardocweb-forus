@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
         const travelinf = document.querySelectorAll('.container-info-travel');
-    travelsinf.forEach(travelinf=> {
+    travelinf.forEach(travelinf=> {
         observer.observe(travelinf);
     });
 
