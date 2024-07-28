@@ -317,8 +317,13 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(adultsinf);
     });
 
+        const travelinf = document.querySelectorAll('.container-info-travel');
+    travelsinf.forEach(travelinf=> {
+        observer.observe(travelinf);
+    });
+
  
-    
+
 
 });
 
