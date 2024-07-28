@@ -3323,7 +3323,7 @@ height: auto;
     .sw-info-p{
         background-color: #bfeff5;
         border-radius: 4%;
-        padding: 10%;
+        padding: 2%;
         margin-right: -6%;
     }
     .flex-container-opening-swim h1 {
@@ -3338,7 +3338,7 @@ height: auto;
     }
     .flex-container-opening-swim li {
         width: 37rem;
-        height: 7rem;
+        height: 5rem;
     }
     .flex-container-opening-swim{
         padding: 0%;
@@ -3439,10 +3439,11 @@ height: auto;
 @media (max-width: 600px) {
     .flex-container-info-sw {
         justify-content: center;
+        margin-bottom: 0px;
     }
     .square-sw {
         width: 100%;
-        background-color: #bfeff5;
+        background-color: #ffffff;
     }
 
     .title {
