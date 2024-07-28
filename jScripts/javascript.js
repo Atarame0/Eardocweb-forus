@@ -323,13 +323,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-        const swinf = document.querySelectorAll('. container-info-sw');
+        const swinf = document.querySelectorAll('.container-info-sw');
     swinf.forEach(swinf=> {
         observer.observe(swinf);
     });
 
 
-    
+            const adinf = document.querySelectorAll('.container-info-ad');
+    adinf.forEach(adinf=> {
+        observer.observe(adinf);
+    });
 
 });
 
