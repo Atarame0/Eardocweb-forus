@@ -159,7 +159,7 @@ function showPopup(country) {
             break;
         case 'US':
             videoUrl = 'https://www.youtube.com/embed/_7OPmT3yJWY';
-            title = 'אמריקה';
+            title = 'ארצות הברית';
             flagSrc = 'images/amerika.png';
            sentence = "\"זה מוצר מדהים ולגמרי עובד\"";
             break;
