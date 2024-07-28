@@ -3183,6 +3183,7 @@ width: 85%;
 
 
     .content-travelinfo {
+        text-align:right;
         background-color: white;
         font-size: 0.75rem;
         display: none;
@@ -3436,6 +3437,7 @@ height: auto;
 
 
     .content-swinfo {
+        text-align:right;
         font-size: 0.75rem;
         display: none;
         transition: max-height 0.5s ease, opacity 0.5s ease; 
