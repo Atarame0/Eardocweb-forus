@@ -3066,8 +3066,9 @@ width: 85%;
         padding: 1%;
     }
     .flighters-opening-section-icon{
-        width: 54%;
-        margin-right: 17%;
+width: 38%;
+    position: relative;
+    right: 29%;
 
     }
 
