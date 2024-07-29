@@ -165,7 +165,7 @@ function showPopup(country) {
             break;
         case 'ND':
             videoUrl = 'https://www.youtube.com/embed/oyki6anJwR0';
-            title = 'צפון דיקוטה';
+            title = 'דיקוטה הצפונית';
             flagSrc = 'images/dikota.png';
              sentence = "\"אני ממליצה להשתמש בזה, זה כלי נפלא\"";
             break;
