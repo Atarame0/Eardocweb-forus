@@ -1884,6 +1884,7 @@ padding-top: 4%;
     .info-container-doc-2 
     {
         background-color: #effbfe;
+        z-index: -1;
     }
     
     .info-container-doc-2 p {
