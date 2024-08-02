@@ -2132,7 +2132,7 @@ display: none;
 
 
 
-.open-popup-btn-earanatomy-kids{
+.open-popup-btn-earanatomy-kids,. open-popup-btn-360-kids, .open-popup-btn-stepbystep-kids {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
