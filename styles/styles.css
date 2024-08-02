@@ -2190,7 +2190,7 @@ display: none;
     font-size: 20px;
     cursor: pointer;
 }
-.showpopup,.showpopup360, .showpopupstepbystep{
+.showpopup,.showpopup360, .showpopup-stepbystep{
     display: none;
 }
 
@@ -2200,7 +2200,7 @@ display: none;
 
 
 @media only screen and  (max-width: 600px) {
-   .showpopup, .showpopup360, .showpopupstepbystep{
+   .showpopup, .showpopup360, .showpopup-stepbystep{
         display: block;
     }
     
