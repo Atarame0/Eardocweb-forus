@@ -2227,10 +2227,12 @@ display: none;
 
 @media only screen and  (max-width: 600px) {
    .showpopup, .showpopup-stepbystep{
-        display: block;
+      display: flex;
+    flex-direction: column;
     }
     .showpopup-360{
-      display:block;
+      display: flex;
+    flex-direction: column;
 }
 
 
