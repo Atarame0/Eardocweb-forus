@@ -2376,6 +2376,7 @@ display: none;
 }
 
 .flex-container-opening-doc-research li {
+    z-index: -1;
  background-color: #effbfe;
     margin-bottom: 20px;
     height: auto;
