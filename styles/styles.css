@@ -2139,7 +2139,7 @@ display: none;
 
 
 
-.open-popup-btn-earanatomy, .open-popup-btn-360 {
+.open-popup-btn-earanatomy, .open-popup-btn-360,.open-popup-btn-stepbystep {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
@@ -2160,7 +2160,7 @@ display: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.popup-container-earanatomy, .popup-container-360 {
+.popup-container-earanatomy, .popup-container-360, .popup-container-stepbystep  {
     display: none; 
     position: fixed;
     top: 0;
@@ -2172,7 +2172,7 @@ display: none;
     align-items: center;
 }
 
-.popup-earanatomy, .popup-360 {
+.popup-earanatomy, .popup-360, .popup-stepbystep  {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -2181,7 +2181,7 @@ display: none;
     overflow: auto;
 }
 
-.close-popup-btn-earanatomy, .close-popup-btn-360 {
+.close-popup-btn-earanatomy, .close-popup-btn-360, .close-popup-btn-stepbystep {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -2190,7 +2190,7 @@ display: none;
     font-size: 20px;
     cursor: pointer;
 }
-.showpopup,.showpopup360{
+.showpopup,.showpopup360, .showpopupstepbystep{
     display: none;
 }
 
@@ -2200,13 +2200,13 @@ display: none;
 
 
 @media only screen and  (max-width: 600px) {
-   .showpopup, .showpopup360{
+   .showpopup, .showpopup360, .showpopupstepbystep{
         display: block;
     }
     
 
     
-.open-popup-btn-earanatomy, .open-popup-btn-360 {
+.open-popup-btn-earanatomy, .open-popup-btn-360, .open-popup-btn-stepbystep {
     display: block;
 }
 
