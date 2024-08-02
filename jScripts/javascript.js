@@ -402,3 +402,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const openPopupBtn = document.querySelector('.open-popup-btn-stepbystep');
+    const closePopupBtn = document.querySelector('.close-popup-btn-stepbystep');
+    const popupContainer = document.querySelector('.popup-container-stepbystep');
+
+    openPopupBtn.addEventListener('click', () => {
+        popupContainer.style.display = 'flex';
+    });
+
+    closePopupBtn.addEventListener('click', () => {
+        popupContainer.style.display = 'none';
+    });
+
+    // Close popup when clicking outside of it
+    popupContainer.addEventListener('click', (event) => {
+        if (event.target === popupContainer) {
+            popupContainer.style.display = 'none';
+        }
+    });
+});
