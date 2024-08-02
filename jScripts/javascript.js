@@ -272,6 +272,14 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(doc);
     });
 
+
+    
+  const infocontainer = document.querySelectorAll('.info-container-doc-2');
+    infocontainer.forEach(infocontainer => {
+        observer.observe(infocontainer);
+    });
+    
+
     
     const docmed = document.querySelectorAll('.flex-container-main-doc li');
     docmed.forEach(docmed => {
