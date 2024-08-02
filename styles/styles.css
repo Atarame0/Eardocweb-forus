@@ -2190,7 +2190,21 @@ display: none;
     font-size: 20px;
     cursor: pointer;
 }
+.showpopup{
+    display: none;
+}
+
+
+
+
+
+
 @media only screen and  (max-width: 600px) {
+    .showpopup{
+        display: block;
+    }
+
+
     
 .open-popup-btn-earanatomy {
     display: block;
