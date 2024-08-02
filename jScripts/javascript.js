@@ -379,3 +379,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const openPopupBtn = document.querySelector('.open-popup-btn-360');
+    const closePopupBtn = document.querySelector('.close-popup-btn-360');
+    const popupContainer = document.querySelector('.popup-container-360');
+
+    openPopupBtn.addEventListener('click', () => {
+        popupContainer.style.display = 'flex';
+    });
+
+    closePopupBtn.addEventListener('click', () => {
+        popupContainer.style.display = 'none';
+    });
+
+    // Close popup when clicking outside of it
+    popupContainer.addEventListener('click', (event) => {
+        if (event.target === popupContainer) {
+            popupContainer.style.display = 'none';
+        }
+    });
+});
+
