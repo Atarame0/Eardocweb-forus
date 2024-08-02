@@ -2193,7 +2193,7 @@ display: none;
 
 
 
-.open-popup-btn-earanatomy-fly, .open-popup-btn-360-fly, .open-popup-btn-stepbystep-fly {
+ .open-popup-btn-360-fly{
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
