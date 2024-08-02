@@ -3374,7 +3374,7 @@ width: 38%;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
- background: linear-gradient(180deg, #f6ebff, #8a2be2);
+    background: linear-gradient(180deg, #fff4ea, #ffa500);
     border-radius: 15%;
     border: none;
     color: white;
