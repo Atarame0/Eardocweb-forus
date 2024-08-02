@@ -1638,12 +1638,12 @@ padding-top: 3%;
  }
 
 
- .dropdown-arrow {
+ .dropdown-arrow, .dropdown-arrow2 {
     display: none;
 
 }
 
-.accordion.active .dropdown-arrow {
+.accordion.active .dropdown-arrow, .dropdown-arrow2 {
     transform: rotate(-135deg);
 }
 
@@ -1651,7 +1651,18 @@ padding-top: 3%;
 
 @media (max-width: 600px) {
 
-
+       .dropdown-arrow2 {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: solid #000000;
+        border-width: 0 2px 2px 0;
+        padding: 3px;
+        transform: rotate(45deg);
+        transition: transform 0.3s;
+        position: relative;
+        left: -41%;
+    }
 
         .dropdown-arrow {
         display: inline-block;
