@@ -2139,7 +2139,7 @@ display: none;
 
 
 
-.open-popup-btn-earanatomy, .open-popup-btn-360,.open-popup-btn-stepbystep {
+.open-popup-btn-earanatomy, .open-popup-btn-360, .open-popup-btn-stepbystep {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
@@ -2190,20 +2190,25 @@ display: none;
     font-size: 20px;
     cursor: pointer;
 }
-.showpopup,.showpopup360, .showpopup-stepbystep{
+.showpopup, .showpopup-stepbystep{
     display: none;
+}
+
+.showpopup360{
+      display: none;
 }
 
 
 
 
-
-
 @media only screen and  (max-width: 600px) {
-   .showpopup, .showpopup360, .showpopup-stepbystep{
+   .showpopup, .showpopup-stepbystep{
         display: block;
     }
-    
+    .showpopup360{
+      display:block;
+}
+
 
     
 .open-popup-btn-earanatomy, .open-popup-btn-360, .open-popup-btn-stepbystep {
