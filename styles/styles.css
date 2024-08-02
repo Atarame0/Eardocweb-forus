@@ -1638,9 +1638,36 @@ padding-top: 3%;
  }
 
 
+ .dropdown-arrow {
+    display: none;
+
+}
+
+.accordion.active .dropdown-arrow {
+    transform: rotate(-135deg);
+}
+
+
 
 @media (max-width: 600px) {
 
+
+
+        .dropdown-arrow {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: solid #000000;
+        border-width: 0 2px 2px 0;
+        padding: 3px;
+        transform: rotate(45deg);
+        transition: transform 0.3s;
+        position: relative;
+        left: -39%;
+    }
+
+
+    
     .doctors-med-section{
         padding-top: 10%;
 
