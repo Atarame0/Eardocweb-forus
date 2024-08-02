@@ -356,3 +356,26 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+ //פופ אפ מובייל
+
+document.addEventListener('DOMContentLoaded', () => {
+    const openPopupBtn = document.querySelector('.open-popup-btn-earanatomy');
+    const closePopupBtn = document.querySelector('.close-popup-btn-earanatomy');
+    const popupContainer = document.querySelector('.popup-container-earanatomy');
+
+    openPopupBtn.addEventListener('click', () => {
+        popupContainer.style.display = 'flex';
+    });
+
+    closePopupBtn.addEventListener('click', () => {
+        popupContainer.style.display = 'none';
+    });
+
+    // Close popup when clicking outside of it
+    popupContainer.addEventListener('click', (event) => {
+        if (event.target === popupContainer) {
+            popupContainer.style.display = 'none';
+        }
+    });
+});
+
