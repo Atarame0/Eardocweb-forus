@@ -1113,6 +1113,7 @@ width: 29px;
     }
 
     .web-icon {
+        z-index: -1;
     display: block;
     width: 8%;
     position: absolute;
@@ -2161,6 +2162,7 @@ display: none;
 }
 
 .popup-container-earanatomy, .popup-container-360, .popup-container-stepbystep  {
+    
     display: none; 
     position: fixed;
     top: 0;
