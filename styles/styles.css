@@ -2194,7 +2194,7 @@ display: none;
     display: none;
 }
 
-.showpopup360{
+.showpopup-360{
       display: none;
 }
 
@@ -2205,7 +2205,7 @@ display: none;
    .showpopup, .showpopup-stepbystep{
         display: block;
     }
-    .showpopup360{
+    .showpopup-360{
       display:block;
 }
 
