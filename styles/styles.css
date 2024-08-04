@@ -1719,14 +1719,14 @@ padding-top: 3%;
     
     }
     .medCat-image{
-        display: none;
-    }
-    .medCat-image-Earpopper{
-        display: none;
+       display: block;
+        position: relative;
     }
 
+
     .medCat-image-antibiotics{
-        display: none;
+  display: block;
+    position: relative;
     }
 
     .flex-container-main-doc {
@@ -2020,6 +2020,7 @@ padding-top: 4%;
 
     .accordion{
         font-size: 1rem;
+        text-align: right;
     }
 
 }
