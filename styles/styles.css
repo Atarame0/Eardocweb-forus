@@ -3091,6 +3091,11 @@ flex: 1 1 30%;
     padding: 3%;
 }
 
+.parent-info-buttons-research{
+    padding: 1%;
+    width: 25%;
+}
+
 @media (max-width: 600px) {
     .flex-container-info-parents {
         justify-content: center;
