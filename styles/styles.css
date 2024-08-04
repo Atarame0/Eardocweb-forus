@@ -3385,7 +3385,7 @@ width: 85%;
 }
 
 .travel-info-buttons-suitcase{
-   width: 22%;
+   width: 16%;
     padding: 0%;
 }
 
@@ -3434,22 +3434,25 @@ width: 85%;
         transition: max-height 0.5s ease, opacity 0.5s ease; 
     }
 
-    .travel-info-buttons, .travel-info-buttons-research {
-     display: block;
-        position: relative;
-        right: -27%;
+    .travel-info-buttons{
+   display: block;
+    position: relative;
+    right: -28%;
+    width: 11%;
     }
+    
 
     .travel-info-buttons-research {
-       display: block;
-        position: relative;
-        right: -24%;
+    display: block;
+    position: relative;
+    right: -26%;
+    width: 17%;
 
     }
     .travel-info-buttons-suitcase{
        display: block;
         position: relative;
-        right: -27%;
+        right: -30%;
     }
 }
 
