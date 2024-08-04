@@ -3107,6 +3107,9 @@ font-size: 1rem;
     outline: none;
     transition: 0.4s;
     font-family: 'Assistant-Light';
+        right: -25%;
+    margin-bottom: 10px;
+    position: relative;
     }
 
 .content-parentinfo {
@@ -3674,15 +3677,22 @@ height: auto;
     }
 
     .sw-info-buttons, .sw-info-buttons-research {
-    display: none;
+display: block;
+        position: relative;
+        right: -27%;
     }
 
     .sw-info-buttons-research {
-        display: none;
+              width: 23%;
+        display: block;
+        position: relative;
+        right: -24%;
 
     }
     .sw-info-buttons-suitcase{
-        display: none;
+          display: block;
+        position: relative;
+        right: -27%;
     }
 }
 
