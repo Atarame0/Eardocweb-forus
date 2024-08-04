@@ -3122,10 +3122,19 @@ font-size: 1rem;
         background: white;
     }
 
-    .parent-info-buttons, .parent-info-buttons-research {
+    .parent-info-buttons{
+width: 10%;
     display: block;
-        position: relative;
-        right: -26%;
+    position: relative;
+    right: -27%;
+    }
+
+
+     .parent-info-buttons-research {
+         width: 10%;
+    display: block;
+    position: relative;
+    right: -27%;
     }
 
     .parent-info-buttons-research {
