@@ -1649,6 +1649,13 @@ padding-top: 3%;
 
 
 
+
+
+
+
+
+
+
 @media (max-width: 600px) {
 
        .dropdown-arrow2 {
@@ -3118,6 +3125,29 @@ font-size: 1rem;
 
     }
 }
+
+
+
+@media (max-width: 600px) {
+    .dropdown-arrow-kids {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: solid #000000;
+        border-width: 0 2px 2px 0;
+        padding: 3px;
+        transform: rotate(45deg);
+        transition: transform 0.3s;
+        position: relative;
+        right: 100%;
+    }
+
+    .title.active .dropdown-arrow-kids {
+        transform: rotate(225deg); /* Rotate 180 degrees more to reverse the initial 45 degrees rotation */
+    }
+}
+
+
 
 
 /* לטסים מתמידים    */
