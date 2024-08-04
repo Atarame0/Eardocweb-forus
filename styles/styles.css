@@ -520,7 +520,7 @@ transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 
 
     .list{
-        gap: 101px;
+        gap: 32px;
         padding-bottom: 4%;
     }
 
