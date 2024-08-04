@@ -3134,17 +3134,11 @@ width: 10%;
          width: 10%;
     display: block;
     position: relative;
-    right: -27%;
-         
+    right: -25%;
+               width: 17%;
     }
 
-    .parent-info-buttons-research {
-       display: block;
-        position: relative;
-        right: -24%;
-        width: 17%;
 
-    }
 }
 
 
