@@ -3885,3 +3885,22 @@ margin-top: 1%;
         display: none;
     }
 }
+
+
+@media (max-width: 600px) {
+    .dropdown-arrow-ad {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: solid #000000;
+        border-width: 0 2px 2px 0;
+        padding: 3px;
+        transform: rotate(45deg);
+        transition: transform 0.3s;
+        position: relative;
+    }
+
+    .accordion.active .dropdown-arrow-ad {
+        transform: rotate(225deg); /* Rotate 180 degrees more to reverse the initial 45 degrees rotation */
+    }
+}
