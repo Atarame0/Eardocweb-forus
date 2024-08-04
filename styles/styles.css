@@ -501,7 +501,7 @@ transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 /* המסך פחות מ-600 */
 @media only screen and (max-width: 600px) {
     .item {
-        height: 38vh;
+        height: 29vh;
         width: 28vh;
       
     }
