@@ -3009,6 +3009,7 @@ flex: 1 1 30%;
      width: 96%;
     margin-right: -15%;
     margin-top: 8%;
+        z-index: -1;
 }
 
 .kids-forparents-section p{
