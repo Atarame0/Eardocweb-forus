@@ -342,6 +342,14 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(adinf);
     });
 
+
+
+            const popup = document.querySelectorAll('.showpopup');
+    popup.forEach(popup=> {
+        observer.observe(popup);
+    });
+
+    
 });
 
 
