@@ -3906,6 +3906,11 @@ margin-top: 1%;
     padding: 3%;
 }
 
+.ad-info-buttons-research{
+    width: 25%;
+    padding: 0%;
+}
+
 @media (max-width: 600px) {
     .flex-container-info-ad {
         justify-content: center;
@@ -3923,22 +3928,25 @@ margin-top: 1%;
         transition: max-height 0.5s ease, opacity 0.5s ease; 
     }
 
-    .ad-info-buttons, .ad-info-buttons-research {
+    .ad-info-buttons{
   display: block;
         position: relative;
         right: -27%;
+        width: 11%;
     }
 
     .ad-info-buttons-research {
          display: block;
         position: relative;
         right: -25%;
+        width: 17%;
 
     }
     .ad-info-buttons-suitcase{
         display: block;
         position: relative;
         right: -25%;
+        width: 12%;
     }
 }
 
