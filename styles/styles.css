@@ -3656,7 +3656,7 @@ height: auto;
 @media (max-width: 600px) {
     .flex-container-info-sw {
         justify-content: center;
-        margin-bottom: 0px;
+        margin-bottom: 13px;
     }
     .square-sw {
         width: 100%;
