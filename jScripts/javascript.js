@@ -349,7 +349,21 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(popup);
     });
 
+
     
+            const popup360 = document.querySelectorAll('.showpopup-360');
+    popup360.forEach(popup360=> {
+        observer.observe(popup360);
+    });
+
+
+
+
+                const stepbystep = document.querySelectorAll('.showpopup-stepbystep');
+    stepbystep.forEach(stepbystep=> {
+        observer.observe(stepbystep);
+    });
+
 });
 
 
