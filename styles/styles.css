@@ -3095,6 +3095,12 @@ flex: 1 1 30%;
     padding: 1%;
     width: 24%;
 }
+.travel-info-buttons-research{
+    padding: 1%;
+    width: 24%;  
+}
+
+
 
 @media (max-width: 600px) {
     .flex-container-info-parents {
