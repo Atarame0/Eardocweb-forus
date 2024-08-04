@@ -3688,6 +3688,12 @@ height: auto;
     padding: 3%;
 }
 
+
+.sw-info-buttons-research{
+    width: 25%;
+    padding: 2%;
+}
+
 @media (max-width: 600px) {
     .flex-container-info-sw {
         justify-content: center;
@@ -3708,14 +3714,15 @@ height: auto;
         transition: max-height 0.5s ease, opacity 0.5s ease; 
     }
 
-    .sw-info-buttons, .sw-info-buttons-research {
+    .sw-info-buttons{
 display: block;
         position: relative;
         right: -27%;
+        width: 12%;
     }
 
     .sw-info-buttons-research {
-              width: 23%;
+              width: 19%;
         display: block;
         position: relative;
         right: -24%;
@@ -3725,6 +3732,7 @@ display: block;
           display: block;
         position: relative;
         right: -27%;
+        width: 14%;
     }
 }
 
