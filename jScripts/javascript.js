@@ -432,3 +432,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    const titles = document.querySelectorAll('.title');
+
+    titles.forEach(title => {
+        title.addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+    });
+});
