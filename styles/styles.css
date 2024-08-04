@@ -3884,15 +3884,21 @@ margin-top: 1%;
     }
 
     .ad-info-buttons, .ad-info-buttons-research {
-    display: none;
+  display: block;
+        position: relative;
+        right: -27%;
     }
 
     .ad-info-buttons-research {
-        display: none;
+         display: block;
+        position: relative;
+        right: -25%;
 
     }
     .ad-info-buttons-suitcase{
-        display: none;
+        display: block;
+        position: relative;
+        right: -27%;
     }
 }
 
