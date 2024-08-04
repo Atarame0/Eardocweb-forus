@@ -509,6 +509,7 @@ transition: opacity 0.8s ease-out, transform 0.8s ease-out;
     .content {
       font-size: 32px;
         text-align: right;
+        height: 62%;
     }
 
     .button {
