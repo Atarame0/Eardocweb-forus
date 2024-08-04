@@ -3423,15 +3423,21 @@ width: 38%;
     }
 
     .travel-info-buttons, .travel-info-buttons-research {
-    display: none;
+     display: block;
+        position: relative;
+        right: -27%;
     }
 
     .travel-info-buttons-research {
-        display: none;
+       display: block;
+        position: relative;
+        right: -24%;
 
     }
     .travel-info-buttons-suitcase{
-        display: none;
+       display: block;
+        position: relative;
+        right: -27%;
     }
 }
 
