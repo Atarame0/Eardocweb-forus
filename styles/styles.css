@@ -647,7 +647,7 @@ transition: opacity 0.8s ease-out, transform 0.8s ease-out;
     }
 
     .Icon-image-Doc {
-transform: translate(25%, 0) scale(1.2);
+transform: translate(36%, 0) scale(1.2);
     margin-top: 6%;
     }
 
@@ -658,8 +658,8 @@ transform: translate(25%, 0) scale(1.2);
     }
 
     .Icon-image-Kid {
-transform: translate(14%, 0) scale(1.2);
-    margin-top: 7%;
+    transform: translate(25%, 0) scale(1.2);
+    margin-top: 9%;
     }
 
     .IconTextFly {
@@ -669,7 +669,7 @@ transform: translate(14%, 0) scale(1.2);
     }
 
     .Icon-image-Fly {
-transform: translate(9%, 0) scale(1.2);
+    transform: translate(18%, 0) scale(1.1);
     margin-top: 27%;
     }
 
@@ -681,8 +681,8 @@ transform: translate(9%, 0) scale(1.2);
     }
 
     .Icon-image-Sw {
-transform: translate(7%, 0) scale(1.2);
-    margin-top: 18%;
+    transform: translate(7%, 0) scale(1.1);
+    margin-top: 21%;
     }
 
 
@@ -694,8 +694,8 @@ transform: translate(7%, 0) scale(1.2);
         }
     
         .Icon-image-Ad {
-transform: translate(5%, 0) scale(1.2);
-    margin-top: 18%;
+    transform: translate(-23%, 0) scale(1.1);
+    margin-top: 22%;
         }
     
 .button--previous {
