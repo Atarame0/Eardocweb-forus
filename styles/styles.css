@@ -42,6 +42,12 @@
 }
 
 
+.web-logo{
+    width: 29%;
+    position: relative;
+    right: -26%;
+    padding: 3%;
+}
 
 .web-icon{
     animation: smileyBouncer 3s linear infinite;
