@@ -2286,9 +2286,9 @@ background: linear-gradient(180deg, #fff4ea, #ffa500);
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    height: 85%;
+    height: 74%;
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .close-popup-btn-earanatomy, .close-popup-btn-360, .close-popup-btn-stepbystep {
