@@ -2309,6 +2309,9 @@ background: linear-gradient(180deg, #fff4ea, #ffa500);
 }
 
 
+    #video-iframe{
+        height: 100%;
+    }
 
 
 @media only screen and  (max-width: 600px) {
