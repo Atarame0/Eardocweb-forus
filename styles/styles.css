@@ -1776,9 +1776,7 @@ padding-top: 3%;
 
 
       
-      .active, .accordion:hover {
-        background-color: #ccc; 
-      }
+
       .panel p{
         font-size: 1rem;
           text-align:right;
