@@ -3162,14 +3162,14 @@ width: 10%;
         border: solid #000000;
         border-width: 0 2px 2px 0;
         padding: 3px;
-        transform: rotate(45deg);
+        transform: rotate(130deg);
         transition: transform 0.3s;
         position: relative;
         right: 100%;
     }
 
     .title.active .dropdown-arrow-kids {
-        transform: rotate(225deg); /* Rotate 180 degrees more to reverse the initial 45 degrees rotation */
+        transform: rotate(45deg); /* Rotate 180 degrees more to reverse the initial 45 degrees rotation */
     }
 }
 
