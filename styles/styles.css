@@ -2312,6 +2312,15 @@ background: linear-gradient(180deg, #fff4ea, #ffa500);
 
 
 @media only screen and  (max-width: 600px) {
+
+
+    
+    #video-iframe{
+        height: 100%;
+    }
+
+
+    
    .showpopup, .showpopup-stepbystep{
       display: flex;
     flex-direction: column;
