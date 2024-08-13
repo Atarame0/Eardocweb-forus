@@ -898,8 +898,8 @@ height: 63%;
 
 
     .flip-card-back {
-        background-color: #2980b9;
-        color: white;
+       background-color: #3cc5e9;
+        color: black;
         transform: rotateY(180deg);
         padding: 4%;
         font-size: 0.75rem;
