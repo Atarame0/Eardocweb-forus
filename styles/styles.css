@@ -860,7 +860,7 @@ height: 63%;
       }
 
       .flip-card-front {
-        background-color: #EFFBFF; 
+/*         background-color: #EFFBFF;  */
         color: black;
         padding: 17%;
         font-size: 1rem;
