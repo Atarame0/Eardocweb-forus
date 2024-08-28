@@ -2511,7 +2511,7 @@ background: linear-gradient(180deg, #fff4ea, #ffa500);
 }
 
 .flex-container-opening-doc-research li {
-    z-index: -1;
+/*     z-index: -1; */
  background-color: #effbfe;
     margin-bottom: 20px;
     height: auto;
