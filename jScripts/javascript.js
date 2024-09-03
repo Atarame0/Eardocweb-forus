@@ -1,9 +1,17 @@
-
 let lastScrollTop = 0;
 
 window.onscroll = function() {
     let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollUpBtn = document.getElementById("scrollUpBtn");
 
+    // Show/hide scroll-up button
+    if (currentScrollTop > 300) {
+        scrollUpBtn.style.display = "block";
+    } else {
+        scrollUpBtn.style.display = "none";
+    }
+
+    // Hide/show navigation bar based on scroll direction
     if (currentScrollTop > lastScrollTop) {
         // Scrolling down
         document.getElementById('main-nav').classList.add('hidden');
@@ -11,8 +19,18 @@ window.onscroll = function() {
         // Scrolling up
         document.getElementById('main-nav').classList.remove('hidden');
     }
+    
     lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop; // For mobile or negative scrolling
 };
+
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+
+
+
+
 
 function toggleNavBar() {
     const sidenav = document.getElementById("mobile-nav");
