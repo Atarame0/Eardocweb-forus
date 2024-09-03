@@ -42,6 +42,36 @@
 }
 
 
+#scrollUpBtn {
+    position: fixed;
+    width: 4%;
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(90deg);
+    font-family: verla ui-rounded;
+    display: none;
+    background-color: #3cc5e9;
+    color: black;
+    border: none;
+    padding: 15px;
+    border-radius: 84%;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 18px;
+}
+
+#scrollUpBtn:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    #scrollUpBtn {
+    width: 16%;}
+}
+
+
+
+
 .web-logo{
 position: relative;
     padding: 12%;
