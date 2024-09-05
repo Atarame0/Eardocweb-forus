@@ -43,21 +43,21 @@
 
 
 #scrollUpBtn {
-    position: fixed;
+position: fixed;
     width: 4%;
     bottom: 20px;
     right: 20px;
     transform: rotate(90deg);
-    font-family: verla ui-rounded;
+    font-family: "verla ui-rounded";
     display: none;
-    background-color: #3cc5e9;
-    color: black;
+    background-color: rgb(60, 197, 233);
+    color: white;
     border: none;
-    padding: 15px;
-    border-radius: 84%;
+    padding: 5px;
+    border-radius: 21%;
     cursor: pointer;
     z-index: 1000;
-    font-size: 18px;
+    font-size: 27px;
 }
 
 #scrollUpBtn:hover {
